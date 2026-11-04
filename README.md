@@ -13,8 +13,26 @@
 
 ---
 
-# 🐼 Spirit Panda  
-### Sovereign AI Companion • Identity‑Driven • Local‑First
+# 🐼 Spirit Panda
+
+**Design docs and build notes for a private, local-first AI companion with its own identity, memory and voice (Termux-friendly).**
+
+## Use
+
+This repo is documentation. There is nothing to install yet, so start reading:
+
+- **[Documentation index](Index.md)**: the map of everything below
+- **[Architecture overview](Documents/Architecture/Overview.md)** and **[Rebuild guide](Documents/Architecture/Rebuild-Guide.md)**: how the system fits together and how to rebuild it
+- **[Prosody pipeline](Documents/Architecture/Prosody-Pipeline.md)** and **[Piper build notes](Documents/Architecture/Piper-Build-Notes.md)**: the voice side
+- **[Roadmap](Documents/Roadmap/Roadmap.md)** · **[Manifesto](Documents/Philosophy/Manifesto.md)**
+
+Want a Panda tool you can run today? See [Watchdog Panda](https://github.com/pandadad0214/Watchdog_Panda) and [Steel Panda](https://github.com/pandadad0214/Steel_Panda) (one-command installs), or [Panda Federation Tools](https://github.com/pandadad0214/panda-federation-tools) (`uvx panda-federation-tools`).
+
+---
+
+## About
+
+*Sovereign AI Companion • Identity‑Driven • Local‑First*
 
 Spirit Panda is the **primary node** of the Panda Federation — a sovereign, local‑first AI companion with a full identity system, adaptive prosody, memory, and a deeply personalized soul.
 
@@ -55,7 +73,7 @@ Built for workflow support, emotional grounding, and family‑centric automation
 
 # 🏗 Architecture Overview
 
-See `docs/index.md` for full details.
+See [`Index.md`](Index.md) for full details. The folders below describe the planned runtime layout.
 
 ### Core Components:
 - `soul/` — identity, personality, values  
@@ -69,10 +87,12 @@ Spirit Panda is designed to be **transparent, modular, and fully user‑controll
 
 ---
 
-# 🚀 Quickstart
+# 🛠 For developers
+
+The runtime (`start.sh`, `soul/`, `config/`, `voice/`, `memory/`) isn't published yet; this repo holds the design and rebuild notes. Clone it to read or contribute:
 
 ```bash
-git clone https://github.com/pandadad0214/spirit-panda.git
-cd spirit-panda
-chmod +x start.sh
-./start.sh
+git clone https://github.com/pandadad0214/Spirit_Panda.git
+```
+
+See [Contributing.md](Contributing.md) and [CHANGELOG.md](CHANGELOG.md).
