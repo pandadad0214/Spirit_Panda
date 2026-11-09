@@ -15,11 +15,11 @@
 
 # 🐼 Spirit Panda
 
-**Design docs and build notes for a private, local-first AI companion with its own identity, memory and voice (Termux-friendly).**
+Spirit Panda is a design and build-notes repo for a private, local-first AI companion with its own identity, memory and voice that runs on a phone (Termux). There is no runtime to install yet; the docs explain how to build one.
 
-## Use
+## How to use this
 
-This repo is documentation. There is nothing to install yet, so start reading:
+This repo is documentation. Start reading here:
 
 - **[Documentation index](Index.md)**: the map of everything below
 - **[Architecture overview](Documents/Architecture/Overview.md)** and **[Rebuild guide](Documents/Architecture/Rebuild-Guide.md)**: how the system fits together and how to rebuild it
@@ -27,6 +27,16 @@ This repo is documentation. There is nothing to install yet, so start reading:
 - **[Roadmap](Documents/Roadmap/Roadmap.md)** · **[Manifesto](Documents/Philosophy/Manifesto.md)**
 
 Want a Panda tool you can run today? See [Watchdog Panda](https://github.com/pandadad0214/Watchdog_Panda) and [Steel Panda](https://github.com/pandadad0214/Steel_Panda) (one-command installs), or [Panda Federation Tools](https://github.com/pandadad0214/panda-federation-tools) (`uvx panda-federation-tools`).
+
+## For AI agents
+
+| Field | Value |
+| --- | --- |
+| Purpose | Design docs, architecture and rebuild notes for a local-first AI companion (identity, memory, voice/prosody). |
+| Use when | You want reference architecture or Piper/prosody build notes for an on-device companion. |
+| Do not use when | You need runnable code; the runtime is not published. |
+| Install | None. Start at [`Index.md`](Index.md). |
+| Status | Documentation only; MIT licensed. |
 
 ---
 
@@ -40,7 +50,7 @@ Built for workflow support, emotional grounding, and family‑centric automation
 
 ---
 
-# 🌟 Features
+## Features
 
 ### 🧬 **Identity System**
 - Personality, lore, and emotional tone  
@@ -71,7 +81,7 @@ Built for workflow support, emotional grounding, and family‑centric automation
 
 ---
 
-# 🏗 Architecture Overview
+## Architecture Overview
 
 See [`Index.md`](Index.md) for full details. The folders below describe the planned runtime layout.
 
@@ -87,7 +97,7 @@ Spirit Panda is designed to be **transparent, modular, and fully user‑controll
 
 ---
 
-# 🛠 For developers
+## For developers
 
 The runtime (`start.sh`, `soul/`, `config/`, `voice/`, `memory/`) isn't published yet; this repo holds the design and rebuild notes. Clone it to read or contribute:
 
