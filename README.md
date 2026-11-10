@@ -17,11 +17,11 @@
 
 Spirit Panda is a design and build-notes repo for a private, local-first AI companion with its own identity, memory and voice that runs on a phone (Termux). There is no runtime to install yet; the docs explain how to build one.
 
-## Part of [Panda Federation](https://pandafederation.github.io/)
+## Part of [Panda Federation](https://pandafederation.com/)
 
-[![Part of Panda Federation](https://pandafederation.github.io/assets/badge.svg)](https://pandafederation.github.io/)
+[![Part of Panda Federation](https://pandafederation.com/assets/badge.svg)](https://pandafederation.com/)
 
-This project is a module of the Panda Federation — public-data tools, MCP servers, and local-first apps in one catalog. See the rest of the work, including books when they publish and the matching free or paid editions of this tool, at the [official site](https://pandafederation.github.io/).
+This project is a module of the Panda Federation — public-data tools, MCP servers, and local-first apps in one catalog. See the rest of the work, including books when they publish and the matching free or paid editions of this tool, at the [official site](https://pandafederation.com/).
 
 ## How to use this
 
